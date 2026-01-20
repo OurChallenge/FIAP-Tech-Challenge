@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11408.102 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP_Cloud_Games.Domain", "FIAP_Cloud_Games.Domain\FIAP_Cloud_Games.Domain.csproj", "{A57CD0AA-44D8-4ACE-868B-5DAFD8239198}"
 EndProject
@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tech Challenge Requirements
 	ProjectSection(SolutionItems) = preProject
 		Tech Challenge Requirements\TC NETT - Fase 1.pdf = Tech Challenge Requirements\TC NETT - Fase 1.pdf
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersApi", "..\UsersApi\UsersApi\UsersApi.csproj", "{3848454E-0FB5-12F7-6602-FBBC39AE98C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{12437E73-13E6-7BE0-F411-A480574D9578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12437E73-13E6-7BE0-F411-A480574D9578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12437E73-13E6-7BE0-F411-A480574D9578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3848454E-0FB5-12F7-6602-FBBC39AE98C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3848454E-0FB5-12F7-6602-FBBC39AE98C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3848454E-0FB5-12F7-6602-FBBC39AE98C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3848454E-0FB5-12F7-6602-FBBC39AE98C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -23,6 +23,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tech Challenge Requirements", "Tech Challenge Requirements", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
 		Tech Challenge Requirements\TC NETT - Fase 1.pdf = Tech Challenge Requirements\TC NETT - Fase 1.pdf
+		Tech Challenge Requirements\TC NETT - Fase 2.pdf = Tech Challenge Requirements\TC NETT - Fase 2.pdf
+		Tech Challenge Requirements\TC NETT - Fase 3.pdf = Tech Challenge Requirements\TC NETT - Fase 3.pdf
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersApi", "..\UsersApi\UsersApi\UsersApi.csproj", "{3848454E-0FB5-12F7-6602-FBBC39AE98C5}"

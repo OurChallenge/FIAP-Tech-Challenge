@@ -1,0 +1,1193 @@
+{
+  "settings": {
+    "components": {
+      "code": false,
+      "binaries": false
+    },
+    "targetId": "net9.0",
+    "targetDisplayName": ".NETCoreApp,Version=v9.0"
+  },
+  "analysisStartTime": "2026-01-20T02:44:10.381248Z",
+  "analysisEndTime": "2026-01-20T02:44:16.2895678Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 9,
+      "issues": 6,
+      "incidents": 36,
+      "effort": 36
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 20,
+        "Optional": 1,
+        "Potential": 15,
+        "Information": 0
+      },
+      "category": {
+        "Project": 9,
+        "NuGet": 9,
+        "Api": 18
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "C:\\GitHub\\CatalogApi\\CatalogApi\\CatalogApi.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "CatalogApi",
+        "projectKind": "AspNetCore",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 5,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 88,
+        "linesOfCode": 71,
+        "totalApiScanned": 108,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "c10d97fb-57c3-43f7-bf7f-8eff9eb2eb07",
+          "ruleId": "Project.0002",
+          "projectPath": "C:\\GitHub\\CatalogApi\\CatalogApi\\CatalogApi.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net8.0\nRecommended target framework: net9.0",
+              "protected": "Current target framework: net8.0\nRecommended target framework: net9.0"
+            },
+            "kind": "File",
+            "path": "C:\\GitHub\\CatalogApi\\CatalogApi\\CatalogApi.csproj",
+            "snippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "protectedSnippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net9.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+      "startingProject": true,
+      "issues": 3,
+      "storyPoints": 10,
+      "properties": {
+        "appName": "FIAP_Cloud_Games.Api",
+        "projectKind": "AspNetCore",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 7,
+        "numberOfCodeFiles": 5,
+        "linesTotal": 502,
+        "linesOfCode": 436,
+        "totalApiScanned": 638,
+        "minLinesOfCodeToChange": 7,
+        "maxLinesOfCodeToChange": 7
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "ef229a49-ffd4-4fd6-bbed-015a1731ec10",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.21\n\nRecommendation:\n\nRemove Microsoft.AspNetCore.Authentication.JwtBearer, and replace with new package Microsoft.AspNetCore.Authentication.JwtBearer 9.0.12",
+              "protected": "Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.21\n\nRecommendation:\n\nRemove Microsoft.AspNetCore.Authentication.JwtBearer, and replace with new package Microsoft.AspNetCore.Authentication.JwtBearer 9.0.12"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+            "snippet": "Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.21\n\nRecommendation:\n\nRemove Microsoft.AspNetCore.Authentication.JwtBearer, and replace with new package Microsoft.AspNetCore.Authentication.JwtBearer 9.0.12",
+            "protectedSnippet": "Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.21\n\nRecommendation:\n\nRemove Microsoft.AspNetCore.Authentication.JwtBearer, and replace with new package Microsoft.AspNetCore.Authentication.JwtBearer 9.0.12",
+            "label": "Microsoft.AspNetCore.Authentication.JwtBearer 8.0.21",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+              "PackageVersion": "8.0.21",
+              "PackageNewVersion": "9.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e58d36d1-2a18-4688-afad-23ba187aa3a1",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12",
+              "protected": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12",
+            "label": "Microsoft.EntityFrameworkCore.Design 9.0.10",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.Design",
+              "PackageVersion": "9.0.10",
+              "PackageNewVersion": "9.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "6975c365-bc4c-4ebd-a8f7-3f7a3d0727d1",
+          "ruleId": "Project.0002",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net8.0\nRecommended target framework: net9.0",
+              "protected": "Current target framework: net8.0\nRecommended target framework: net9.0"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+            "snippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "protectedSnippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net9.0"
+            }
+          }
+        },
+        {
+          "incidentId": "65341e78-1d5b-4c6b-93ae-b2b877e4f917",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6. Add package reference to Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "options.TokenValidationParameters = new TokenValidationParameters\r\n    {\r\n        ValidateIssuer = true,\r\n        ValidateAudience = true,\r\n        ValidateLifetime = true,\r\n        ValidateIssuerSigningKey = true,\r\n        ValidIssuer = issuer,\r\n        ValidAudience = audience,\r\n        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),\r\n        ClockSkew = TimeSpan.Zero\r\n    };",
+              "protected": "P:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions.TokenValidationParameters"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\Program.cs",
+            "snippet": "options.TokenValidationParameters = new TokenValidationParameters\r\n    {\r\n        ValidateIssuer = true,\r\n        ValidateAudience = true,\r\n        ValidateLifetime = true,\r\n        ValidateIssuerSigningKey = true,\r\n        ValidIssuer = issuer,\r\n        ValidAudience = audience,\r\n        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),\r\n        ClockSkew = TimeSpan.Zero\r\n    };",
+            "protectedSnippet": "P:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions.TokenValidationParameters",
+            "label": "P:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions.TokenValidationParameters",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 29,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "141432b6-1bf9-44e0-bc83-3c1a315175b0",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6. Add package reference to Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;",
+              "protected": "T:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\Program.cs",
+            "snippet": "options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;",
+            "protectedSnippet": "T:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults",
+            "label": "T:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 25,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "e9d2eb4d-b106-4543-8ae5-dc90c1a40e35",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6. Add package reference to Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;",
+              "protected": "F:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\Program.cs",
+            "snippet": "options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;",
+            "protectedSnippet": "F:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme",
+            "label": "F:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 25,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "eaefa7f3-3314-4e2a-bb2c-ab6552cfde30",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6. Add package reference to Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;",
+              "protected": "T:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\Program.cs",
+            "snippet": "options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;",
+            "protectedSnippet": "T:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults",
+            "label": "T:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 24,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "0dd757bc-1801-4842-8a98-5ff92c66e3c8",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6. Add package reference to Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;",
+              "protected": "F:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\Program.cs",
+            "snippet": "options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;",
+            "protectedSnippet": "F:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme",
+            "label": "F:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 24,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "97c6fd3a-8b25-4bdc-b526-b8e3c91e3159",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6. Add package reference to Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "builder.Services.AddAuthentication(options =\u003E\r\n{\r\n    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;\r\n    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;\r\n})\r\n.AddJwtBearer(options =\u003E\r\n{\r\n    options.TokenValidationParameters = new TokenValidationParameters\r\n    {\r\n        ValidateIssuer = true,\r\n        ValidateAudience = true,\r\n        ValidateLifetime = true,\r\n        ValidateIssuerSigningKey = true,\r\n        ValidIssuer = issuer,\r\n        ValidAudience = audience,\r\n        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),\r\n        ClockSkew = TimeSpan.Zero\r\n    };\r\n});",
+              "protected": "T:Microsoft.Extensions.DependencyInjection.JwtBearerExtensions"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\Program.cs",
+            "snippet": "builder.Services.AddAuthentication(options =\u003E\r\n{\r\n    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;\r\n    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;\r\n})\r\n.AddJwtBearer(options =\u003E\r\n{\r\n    options.TokenValidationParameters = new TokenValidationParameters\r\n    {\r\n        ValidateIssuer = true,\r\n        ValidateAudience = true,\r\n        ValidateLifetime = true,\r\n        ValidateIssuerSigningKey = true,\r\n        ValidIssuer = issuer,\r\n        ValidAudience = audience,\r\n        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),\r\n        ClockSkew = TimeSpan.Zero\r\n    };\r\n});",
+            "protectedSnippet": "T:Microsoft.Extensions.DependencyInjection.JwtBearerExtensions",
+            "label": "T:Microsoft.Extensions.DependencyInjection.JwtBearerExtensions",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 22,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "c3e5c959-45c3-4413-8e17-320e3e1976f4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6. Add package reference to Microsoft.AspNetCore.Authentication.JwtBearer, 8.0.6",
+          "projectPath": "FIAP_Cloud_Games.API\\FIAP_Cloud_Games.Api.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "builder.Services.AddAuthentication(options =\u003E\r\n{\r\n    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;\r\n    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;\r\n})\r\n.AddJwtBearer(options =\u003E\r\n{\r\n    options.TokenValidationParameters = new TokenValidationParameters\r\n    {\r\n        ValidateIssuer = true,\r\n        ValidateAudience = true,\r\n        ValidateLifetime = true,\r\n        ValidateIssuerSigningKey = true,\r\n        ValidIssuer = issuer,\r\n        ValidAudience = audience,\r\n        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),\r\n        ClockSkew = TimeSpan.Zero\r\n    };\r\n});",
+              "protected": "M:Microsoft.Extensions.DependencyInjection.JwtBearerExtensions.AddJwtBearer(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions})"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.API\\Program.cs",
+            "snippet": "builder.Services.AddAuthentication(options =\u003E\r\n{\r\n    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;\r\n    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;\r\n})\r\n.AddJwtBearer(options =\u003E\r\n{\r\n    options.TokenValidationParameters = new TokenValidationParameters\r\n    {\r\n        ValidateIssuer = true,\r\n        ValidateAudience = true,\r\n        ValidateLifetime = true,\r\n        ValidateIssuerSigningKey = true,\r\n        ValidIssuer = issuer,\r\n        ValidAudience = audience,\r\n        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),\r\n        ClockSkew = TimeSpan.Zero\r\n    };\r\n});",
+            "protectedSnippet": "M:Microsoft.Extensions.DependencyInjection.JwtBearerExtensions.AddJwtBearer(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions})",
+            "label": "M:Microsoft.Extensions.DependencyInjection.JwtBearerExtensions.AddJwtBearer(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions})",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 22,
+            "column": 0
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 14,
+      "properties": {
+        "appName": "FIAP_Cloud_Games.Application",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 2,
+        "numberOfCodeFiles": 2,
+        "linesTotal": 44,
+        "linesOfCode": 44,
+        "totalApiScanned": 93,
+        "minLinesOfCodeToChange": 11,
+        "maxLinesOfCodeToChange": 11
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "d73a990a-78f0-4dde-b724-88d59404614c",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Extensions.Configuration.Abstractions, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration.Abstractions, and replace with new package Microsoft.Extensions.Configuration.Abstractions 9.0.12",
+              "protected": "Microsoft.Extensions.Configuration.Abstractions, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration.Abstractions, and replace with new package Microsoft.Extensions.Configuration.Abstractions 9.0.12"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+            "snippet": "Microsoft.Extensions.Configuration.Abstractions, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration.Abstractions, and replace with new package Microsoft.Extensions.Configuration.Abstractions 9.0.12",
+            "protectedSnippet": "Microsoft.Extensions.Configuration.Abstractions, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration.Abstractions, and replace with new package Microsoft.Extensions.Configuration.Abstractions 9.0.12",
+            "label": "Microsoft.Extensions.Configuration.Abstractions 9.0.10",
+            "properties": {
+              "PackageId": "Microsoft.Extensions.Configuration.Abstractions",
+              "PackageVersion": "9.0.10",
+              "PackageNewVersion": "9.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "ff8ad3e5-f3e0-442f-bfeb-c3750863e235",
+          "ruleId": "NuGet.0005",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.IdentityModel.Tokens.Jwt, 7.1.2\n\nRecommendation:\n\nMove to latest https://aka.ms/IdentityModel/LTS\nRemove System.IdentityModel.Tokens.Jwt, and replace with new package System.IdentityModel.Tokens.Jwt, 8.15.0",
+              "protected": "System.IdentityModel.Tokens.Jwt, 7.1.2\n\nRecommendation:\n\nMove to latest https://aka.ms/IdentityModel/LTS\nRemove System.IdentityModel.Tokens.Jwt, and replace with new package System.IdentityModel.Tokens.Jwt, 8.15.0"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+            "snippet": "System.IdentityModel.Tokens.Jwt, 7.1.2\n\nRecommendation:\n\nMove to latest https://aka.ms/IdentityModel/LTS\nRemove System.IdentityModel.Tokens.Jwt, and replace with new package System.IdentityModel.Tokens.Jwt, 8.15.0",
+            "protectedSnippet": "System.IdentityModel.Tokens.Jwt, 7.1.2\n\nRecommendation:\n\nMove to latest https://aka.ms/IdentityModel/LTS\nRemove System.IdentityModel.Tokens.Jwt, and replace with new package System.IdentityModel.Tokens.Jwt, 8.15.0",
+            "label": "System.IdentityModel.Tokens.Jwt 7.1.2",
+            "properties": {
+              "PackageId": "System.IdentityModel.Tokens.Jwt",
+              "PackageVersion": "7.1.2",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "20c9d27b-cfff-4531-89e0-fff01b6f61d2",
+          "ruleId": "Project.0002",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net8.0\nRecommended target framework: net9.0",
+              "protected": "Current target framework: net8.0\nRecommended target framework: net9.0"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+            "snippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "protectedSnippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net9.0"
+            }
+          }
+        },
+        {
+          "incidentId": "b26fa56e-a0eb-4d8e-b9c3-5925e44c0196",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return new JwtSecurityTokenHandler().WriteToken(token);",
+              "protected": "T:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "return new JwtSecurityTokenHandler().WriteToken(token);",
+            "protectedSnippet": "T:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler",
+            "label": "T:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler",
+            "line": 32,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "34a68b37-ac89-4e2c-be30-90ada837d202",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return new JwtSecurityTokenHandler().WriteToken(token);",
+              "protected": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.#ctor"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "return new JwtSecurityTokenHandler().WriteToken(token);",
+            "protectedSnippet": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.#ctor",
+            "label": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.#ctor",
+            "line": 32,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "a55f2321-ac04-4b6f-9bed-c70d22e2839c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return new JwtSecurityTokenHandler().WriteToken(token);",
+              "protected": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(Microsoft.IdentityModel.Tokens.SecurityToken)"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "return new JwtSecurityTokenHandler().WriteToken(token);",
+            "protectedSnippet": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(Microsoft.IdentityModel.Tokens.SecurityToken)",
+            "label": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(Microsoft.IdentityModel.Tokens.SecurityToken)",
+            "line": 32,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "2617de78-788f-427e-9620-be6d7a84aad4",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var token = new JwtSecurityToken(issuer, audience, claims, expires: expires, signingCredentials: creds);",
+              "protected": "T:System.IdentityModel.Tokens.Jwt.JwtSecurityToken"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "var token = new JwtSecurityToken(issuer, audience, claims, expires: expires, signingCredentials: creds);",
+            "protectedSnippet": "T:System.IdentityModel.Tokens.Jwt.JwtSecurityToken",
+            "label": "T:System.IdentityModel.Tokens.Jwt.JwtSecurityToken",
+            "line": 31,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "16bdf61e-1dac-440e-b7d9-ff02db95fcdf",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var token = new JwtSecurityToken(issuer, audience, claims, expires: expires, signingCredentials: creds);",
+              "protected": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityToken.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.Nullable{System.DateTime},System.Nullable{System.DateTime},Microsoft.IdentityModel.Tokens.SigningCredentials)"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "var token = new JwtSecurityToken(issuer, audience, claims, expires: expires, signingCredentials: creds);",
+            "protectedSnippet": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityToken.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.Nullable{System.DateTime},System.Nullable{System.DateTime},Microsoft.IdentityModel.Tokens.SigningCredentials)",
+            "label": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityToken.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.Nullable{System.DateTime},System.Nullable{System.DateTime},Microsoft.IdentityModel.Tokens.SigningCredentials)",
+            "line": 31,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "92053dda-add8-4f97-a1ee-1ff238a72e4b",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+              "protected": "T:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+            "protectedSnippet": "T:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames",
+            "label": "T:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames",
+            "line": 22,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "09e570c5-40c1-44c5-b854-18991ddac261",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+              "protected": "F:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Jti"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+            "protectedSnippet": "F:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Jti",
+            "label": "F:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Jti",
+            "line": 22,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "029fe34a-c2fb-44a9-ae76-a502e8c6e668",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+              "protected": "T:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+            "protectedSnippet": "T:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames",
+            "label": "T:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames",
+            "line": 22,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "907101a4-8305-4c28-ba6d-50286b07c742",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+              "protected": "F:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Email"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+            "protectedSnippet": "F:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Email",
+            "label": "F:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Email",
+            "line": 22,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "f5673ce3-8b93-4e41-8db1-59cef83b0980",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+              "protected": "T:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+            "protectedSnippet": "T:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames",
+            "label": "T:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames",
+            "line": 22,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "36f3c273-f487-4825-8219-858ac004eef8",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "FIAP_Cloud_Games.Application\\FIAP_Cloud_Games.Application.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+              "protected": "F:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Sub"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Application\\Auth\\JwtTokenService.cs",
+            "snippet": "var claims = new List\u003CClaim\u003E\r\n        {\r\n            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),\r\n            new Claim(JwtRegisteredClaimNames.Email, email),\r\n            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),\r\n            new Claim(ClaimTypes.Role, role.ToString()) \r\n        };",
+            "protectedSnippet": "F:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Sub",
+            "label": "F:System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Sub",
+            "line": 22,
+            "column": 8
+          }
+        }
+      ],
+      "features": [
+        {
+          "featureId": "IdentityModel",
+          "incidents": [
+            "36f3c273-f487-4825-8219-858ac004eef8",
+            "f5673ce3-8b93-4e41-8db1-59cef83b0980",
+            "907101a4-8305-4c28-ba6d-50286b07c742",
+            "029fe34a-c2fb-44a9-ae76-a502e8c6e668",
+            "09e570c5-40c1-44c5-b854-18991ddac261",
+            "92053dda-add8-4f97-a1ee-1ff238a72e4b",
+            "16bdf61e-1dac-440e-b7d9-ff02db95fcdf",
+            "2617de78-788f-427e-9620-be6d7a84aad4",
+            "a55f2321-ac04-4b6f-9bed-c70d22e2839c",
+            "34a68b37-ac89-4e2c-be30-90ada837d202",
+            "b26fa56e-a0eb-4d8e-b9c3-5925e44c0196"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "FIAP_Cloud_Games.Domain\\FIAP_Cloud_Games.Domain.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "FIAP_Cloud_Games.Domain",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 5,
+        "numberOfCodeFiles": 5,
+        "linesTotal": 248,
+        "linesOfCode": 248,
+        "totalApiScanned": 313,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "5d95c1a8-9e9e-4aa9-a42e-91625381ec9e",
+          "ruleId": "Project.0002",
+          "projectPath": "FIAP_Cloud_Games.Domain\\FIAP_Cloud_Games.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net8.0\nRecommended target framework: net9.0",
+              "protected": "Current target framework: net8.0\nRecommended target framework: net9.0"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Domain\\FIAP_Cloud_Games.Domain.csproj",
+            "snippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "protectedSnippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net9.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "FIAP_Cloud_Games.Infrastructure\\FIAP_Cloud_Games.Infrastructure.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "FIAP_Cloud_Games.Infrastructure",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 7,
+        "numberOfCodeFiles": 7,
+        "linesTotal": 769,
+        "linesOfCode": 769,
+        "totalApiScanned": 1050,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "c9d86631-2cd1-48cb-91bf-93d24fb276de",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FIAP_Cloud_Games.Infrastructure\\FIAP_Cloud_Games.Infrastructure.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 9.0.12",
+              "protected": "Microsoft.EntityFrameworkCore, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 9.0.12"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Infrastructure\\FIAP_Cloud_Games.Infrastructure.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 9.0.12",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 9.0.12",
+            "label": "Microsoft.EntityFrameworkCore 9.0.10",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore",
+              "PackageVersion": "9.0.10",
+              "PackageNewVersion": "9.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4429b4f5-d473-4265-8529-70b8870e0928",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FIAP_Cloud_Games.Infrastructure\\FIAP_Cloud_Games.Infrastructure.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12",
+              "protected": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Infrastructure\\FIAP_Cloud_Games.Infrastructure.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12",
+            "label": "Microsoft.EntityFrameworkCore.Design 9.0.10",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.Design",
+              "PackageVersion": "9.0.10",
+              "PackageNewVersion": "9.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "5ea7fdc9-57b3-4655-8ea9-ce9e54396c8c",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FIAP_Cloud_Games.Infrastructure\\FIAP_Cloud_Games.Infrastructure.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.SqlServer, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 9.0.12",
+              "protected": "Microsoft.EntityFrameworkCore.SqlServer, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 9.0.12"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Infrastructure\\FIAP_Cloud_Games.Infrastructure.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.SqlServer, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 9.0.12",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.SqlServer, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 9.0.12",
+            "label": "Microsoft.EntityFrameworkCore.SqlServer 9.0.10",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.SqlServer",
+              "PackageVersion": "9.0.10",
+              "PackageNewVersion": "9.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "18e086af-ce6f-4073-bfc6-eb2d5fa86109",
+          "ruleId": "Project.0002",
+          "projectPath": "FIAP_Cloud_Games.Infrastructure\\FIAP_Cloud_Games.Infrastructure.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net8.0\nRecommended target framework: net9.0",
+              "protected": "Current target framework: net8.0\nRecommended target framework: net9.0"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Infrastructure\\FIAP_Cloud_Games.Infrastructure.csproj",
+            "snippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "protectedSnippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net9.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "FIAP_Cloud_Games.Tests\\FIAP_Cloud_Games.Tests.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "FIAP_Cloud_Games.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 4,
+        "numberOfCodeFiles": 2,
+        "linesTotal": 2321,
+        "linesOfCode": 546,
+        "totalApiScanned": 503,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "45510abb-1251-4104-80ed-2f5c25a0779f",
+          "ruleId": "Project.0002",
+          "projectPath": "FIAP_Cloud_Games.Tests\\FIAP_Cloud_Games.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net8.0\nRecommended target framework: net9.0",
+              "protected": "Current target framework: net8.0\nRecommended target framework: net9.0"
+            },
+            "kind": "File",
+            "path": "FIAP_Cloud_Games.Tests\\FIAP_Cloud_Games.Tests.csproj",
+            "snippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "protectedSnippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net9.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "C:\\GitHub\\NotificationsApi\\NotificationsApi\\NotificationsApi.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "NotificationsApi",
+        "projectKind": "AspNetCore",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 5,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 88,
+        "linesOfCode": 71,
+        "totalApiScanned": 108,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "aa4c5514-a2ea-463e-b7d3-b54d730c30da",
+          "ruleId": "Project.0002",
+          "projectPath": "C:\\GitHub\\NotificationsApi\\NotificationsApi\\NotificationsApi.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net8.0\nRecommended target framework: net9.0",
+              "protected": "Current target framework: net8.0\nRecommended target framework: net9.0"
+            },
+            "kind": "File",
+            "path": "C:\\GitHub\\NotificationsApi\\NotificationsApi\\NotificationsApi.csproj",
+            "snippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "protectedSnippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net9.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "C:\\GitHub\\PaymentsApi\\PaymentsApi\\PaymentsApi.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "properties": {
+        "appName": "PaymentsApi",
+        "projectKind": "AspNetCore",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 5,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 88,
+        "linesOfCode": 71,
+        "totalApiScanned": 108,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "866a0032-60d4-4f39-bd3a-43cad7334928",
+          "ruleId": "Project.0002",
+          "projectPath": "C:\\GitHub\\PaymentsApi\\PaymentsApi\\PaymentsApi.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net8.0\nRecommended target framework: net9.0",
+              "protected": "Current target framework: net8.0\nRecommended target framework: net9.0"
+            },
+            "kind": "File",
+            "path": "C:\\GitHub\\PaymentsApi\\PaymentsApi\\PaymentsApi.csproj",
+            "snippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "protectedSnippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net9.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "C:\\GitHub\\UsersApi\\UsersApi\\UsersApi.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "UsersApi",
+        "projectKind": "AspNetCore",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 12,
+        "numberOfCodeFiles": 10,
+        "linesTotal": 495,
+        "linesOfCode": 478,
+        "totalApiScanned": 653,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "bd2070cf-3279-4bda-863a-493ada5514b1",
+          "ruleId": "NuGet.0002",
+          "projectPath": "C:\\GitHub\\UsersApi\\UsersApi\\UsersApi.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 9.0.12",
+              "protected": "Microsoft.EntityFrameworkCore, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 9.0.12"
+            },
+            "kind": "File",
+            "path": "C:\\GitHub\\UsersApi\\UsersApi\\UsersApi.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 9.0.12",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 9.0.12",
+            "label": "Microsoft.EntityFrameworkCore 9.0.10",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore",
+              "PackageVersion": "9.0.10",
+              "PackageNewVersion": "9.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "f59996f6-5a0b-42bc-8952-25924961bbc0",
+          "ruleId": "NuGet.0002",
+          "projectPath": "C:\\GitHub\\UsersApi\\UsersApi\\UsersApi.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12",
+              "protected": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12"
+            },
+            "kind": "File",
+            "path": "C:\\GitHub\\UsersApi\\UsersApi\\UsersApi.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.Design, 9.0.10\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 9.0.12",
+            "label": "Microsoft.EntityFrameworkCore.Design 9.0.10",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.Design",
+              "PackageVersion": "9.0.10",
+              "PackageNewVersion": "9.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "32d65412-e654-4fd8-b489-e3e424aecf68",
+          "ruleId": "Project.0002",
+          "projectPath": "C:\\GitHub\\UsersApi\\UsersApi\\UsersApi.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net8.0\nRecommended target framework: net9.0",
+              "protected": "Current target framework: net8.0\nRecommended target framework: net9.0"
+            },
+            "kind": "File",
+            "path": "C:\\GitHub\\UsersApi\\UsersApi\\UsersApi.csproj",
+            "snippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "protectedSnippet": "Current target framework: net8.0\nRecommended target framework: net9.0",
+            "properties": {
+              "CurrentTargetFramework": "net8.0",
+              "RecommendedTargetFramework": "net9.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    }
+  ],
+  "rules": {
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0005": {
+      "id": "NuGet.0005",
+      "isFeature": false,
+      "description": "NuGet package is deprecated.\n\nGo to its documentation and if there is a guidance for replacement of functionality provided by this package.",
+      "label": "NuGet package is deprecated",
+      "severity": "Optional",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262531",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0001": {
+      "id": "Api.0001",
+      "isFeature": false,
+      "description": "API is binary incompatible for selected .NET version: affects existing binaries, often requiring recompilation, because the API has changed in a way that prevents older binaries from loading or executing.",
+      "label": "Binary incompatible for selected .NET version",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "IdentityModel": {
+      "id": "IdentityModel",
+      "isFeature": false,
+      "description": "Windows Identity Foundation (WIF), SAML, and claims-based authentication APIs that have been replaced by modern identity libraries. WIF was the original identity framework for .NET Framework. Migrate to Microsoft.IdentityModel.* packages (modern identity stack).",
+      "label": "IdentityModel \u0026 Claims-based Security",
+      "severity": "Mandatory",
+      "effort": 4,
+      "links": [
+        {
+          "title": "Microsoft.IdentityModel packages",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341614",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "isFeature": false,
+      "description": "API is source incompatible for selected .NET version: requires code changes to compile successfully when targeting a new version, such as removing obsolete APIs or changing method signatures.",
+      "label": "Source incompatible for selected .NET version",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
